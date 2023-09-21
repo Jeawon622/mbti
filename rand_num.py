@@ -7,3 +7,5 @@ def rand_num_list(n, m):
     arr_list = list(itertools.permutations(arr, m))
     index = rand(0, len(arr_list) - 1)
     return sorted(list(arr_list[index]))
+
+
