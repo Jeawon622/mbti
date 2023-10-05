@@ -117,4 +117,26 @@ for n in arr_list:
         user_input = 0
         score_j += user_input
 
-print(score_i,score_e,score_s,score_n,score_f,score_t,score_p,score_j)
+print("당신의 MBTI는 ", end="")
+
+if score_e > score_i:
+    print("E", end="")
+else:
+    print("I", end="")
+
+if score_n > score_s:
+    print("N", end="")
+else:
+    print("S", end="")
+
+if score_f > score_t:
+    print("F", end="")
+else:
+    print("T", end="")
+
+if score_p > score_j:
+    print("P", end="")
+else:
+    print("J", end="")
+
+print(" 입니다.")
